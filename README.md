@@ -11,4 +11,4 @@ Yes, a simple git push sends to the default repo (and branch I guess).
 Now can I pull it back down to local
 *** End
 
-Success, and a simple git pull brings it down from default. Not that local git doesn't watch the GitHub repo, hence the danger of other people's changes causing trouble. Not critical for this task where I'm working on my own.
+Success, and a simple git pull brings it down from default. Note that local git doesn't watch the GitHub repo, hence the danger of other people's changes causing trouble. Not critical for this task where I'm working on my own.
