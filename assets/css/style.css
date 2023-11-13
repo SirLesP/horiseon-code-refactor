@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* Fonts sorted the header not quite what I intended */
+    
+    /* Put whole page stuff here */
 }
 
 body {
@@ -16,7 +16,7 @@ But further on there are multiple, multiple declarations of the same set of font
 
 .header {
     padding: 20px;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -90,7 +90,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* misssing quotes on Clibri??? or just single name so ok?? */
+    /* misssing quotes on Calibri??? or just single name so ok?? */
     background-color: #2589bd;
 }
 
