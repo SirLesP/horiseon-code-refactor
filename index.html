@@ -11,7 +11,7 @@
 <body>
     <!-- Loads and loads of non-semantic stuff here, div tags galore.
     I think replacing div with a semantic tag, probably based on the class and removing the . from the css classes to make them refer to the semantic tag should work -->
-    <div class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!-- An oddity, leave for now. -->
         <div>
@@ -27,11 +27,11 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
     <div class="hero"></div>
     <!-- Hero image doesn't really have meaning so no need for alt text. But
-    the huge image file isn't needed for something that is set in the css for a height of 800px. The same applies to all the images including the pngs, they are all just far too large. -->
-    <div class="content">
+    the huge image file isn't needed for something that is set in the css for a height of 800px. The same applies to all the images including the pngs, they are all just far too large. Should I change from class to id? -->
+    <article>
         <!-- Main content cards -->
         <div class="search-engine-optimization">
             <!-- No id, does the link work at all by some magic with the class? Probably not and the class is for the bullet. -->
@@ -56,7 +56,7 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+    </article>
     <!-- Sidebar series of conjoined cards -->
     <div class="benefits">
         <div class="benefit-lead">
