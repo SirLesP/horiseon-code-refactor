@@ -2,15 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Fonts sorted the header not quite what I intended */
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/* Setting general stuff above, seems ok to me. 
+But further on there are multiple, multiple declarations of the same set of fonts. Imagine trying to change them consistenly over the whole page. */
+
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -23,12 +29,13 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* Might just .seo class do? h1 is the only place it is used. */
 
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 20px;
 }
 
@@ -83,6 +90,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* misssing quotes on Clibri??? or just single name so ok?? */
     background-color: #2589bd;
 }
 
@@ -101,6 +109,8 @@ p {
     color: #ffffff;
 }
 
+/* All these h3 are the same spec, don't need to declare for each section
+Possilby the only place h3 is used anyway. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,6 +125,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Image displays also multiple where one would do, and image files too big for display size */
 
 .benefit-lead img {
     display: block;

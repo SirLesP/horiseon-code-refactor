@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon SEO optimisation</title>
+    <!-- An easy one to start with -->
 </head>
 
 <body>
+    <!-- Loads and loads of non-semantic stuff here, div tags galore.
+    I think replacing div with a semantic tag, probably based on the class and removing the . from the css classes to make them refer to the semantic tag should work -->
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- An oddity, leave for now. -->
         <div>
             <ul>
                 <li>
@@ -25,8 +29,12 @@
         </div>
     </div>
     <div class="hero"></div>
+    <!-- Hero image doesn't really have meaning so no need for alt text. But
+    the huge image file isn't needed for something that is set in the css for a height of 800px. The same applies to all the images including the pngs, they are all just far too large. -->
     <div class="content">
+        <!-- Main content cards -->
         <div class="search-engine-optimization">
+            <!-- No id, does the link work at all by some magic with the class? Probably not and the class is for the bullet. -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -34,6 +42,7 @@
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
+            <!-- What's with the self closing div? -->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -48,6 +57,7 @@
             </p>
         </div>
     </div>
+    <!-- Sidebar series of conjoined cards -->
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -72,6 +82,7 @@
         </div>
     </div>
     <div class="footer">
+        <!-- Inappropriate h2? We'd got as far as h3 earlier in the page. Probably need to add an h4 just for this -->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
